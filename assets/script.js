@@ -11,14 +11,6 @@ function listTopics() {
 
 }
 
-function saveChanges() {
-  const editedText = document.getElementById('editable').innerText;
-
-  localStorage.setItem('editedText', editedText)
-
-  alert('Changes saved sucessfully!');
-}
-
 function selectTopic() {
 
   if (randomTopic === 'HTML') {
